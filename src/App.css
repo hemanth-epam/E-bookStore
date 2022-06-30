@@ -1,0 +1,206 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(125, 130, 118);
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/*--------------------------------------------------------*/
+
+
+.imgs {
+  margin: 20px 10px 10px 10px;
+  max-width: 200px;
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.imgs2 {
+  margin: 20px 10px 10px 10px;
+  max-width: 400px;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* below images *** */
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px 0px 80px;
+  margin-right: 10px;
+
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.buttons button {
+  color: black;
+  background-color: rgb(135, 214, 240);
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(65, 86, 34);
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.details {
+  margin: 50px 10px 10px 10px;
+}
+
+.description {
+  width: 500px;
+  margin: 0px 0px 0px 430px;
+}
+
+/* *** */
+@media screen and (max-width: 950px) {
+  .description {
+    margin: 0px 0px 0px 0px;
+    width: auto;
+  }
+}
+
+#subtitle {
+  text-align: center;
+  color: rgb(21, 66, 122);
+  margin-top: 5px;
+}
+
+.ordersInfo {
+  border: #333;
+  border-style: solid;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(65, 86, 34);
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table td,
+th {
+  padding: 0 30px;
+}
+
+.chkoutbuttons {
+  margin: 20px 0px 0px 20px;
+  display: flex;
+  column-gap: 100px;
+}
+
+.row {
+  width: 50%;
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+
+}
+
+.col-50 {
+  margin: 0px 0px 0px 20px;
+  -ms-flex: 50%;
+  /* IE10 */
+  flex: 50%;
+  padding: 0 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: #04AA6D;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.bag {
+  float: right;
+}
+
+.cart {
+  display: flex;
+}
+
+.imgs3 {
+  margin: 0px 10px 10px -50px;
+  max-width: 100px;
+  width: 100px;
+  height: 120px;
+}
+
+.cartinfo {
+  margin-left: -50px;
+  border-radius: 2px;
+  border-style: double;
+  width: fit-content;
+  padding: 3px 3px 3px 3px;
+}
+
+.cartbooks {
+  margin: 10px 0px 0px 80px;
+  width: fit-content
+}
+
+.emptycart {
+  margin: 20px 10px 10px 10px;
+  max-width: 300px;
+  width: 300px;
+}
+
+#remove {
+  background-color: rgb(240, 92, 92);
+}

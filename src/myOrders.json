@@ -1,0 +1,37 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Rich Dad & Poor Dad",
+      "author": "AutnorName",
+      "price": "Rs.520",
+      "pageCount": "89",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvXW7JAZ8MJHpcSVuMqwi7PVAbAfAAQ_5UQ&usqp=CAU",
+      "date": "26 June, 2022",
+      "status": "Delivered",
+      "description": "1 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 2,
+      "title": "The 4Hour Workweek",
+      "author": "John",
+      "price": "Rs.420",
+      "pageCount": 277,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9tQQmvultNGDINVTSdNw_M5Vh747pC-iY3w&usqp=CAU",
+      "date": "25 June, 2022",
+      "status": "Delivered",
+      "description": "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 3,
+      "title": "Tiger in a garden",
+      "author": "kellen",
+      "price": "Rs.200",
+      "pageCount": 110,
+      "image": "https://i.pinimg.com/236x/a3/d7/11/a3d711d29ed5a7d4d72fbd93e954e003--tigers-live-book-illustrations.jpg",
+      "date": "24 June, 2022",
+      "status": "Delivered",
+      "description": "3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.."
+    }
+  ]
+}
